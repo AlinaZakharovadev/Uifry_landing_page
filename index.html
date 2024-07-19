@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page Finance Bank App</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
+    <script src="js/animation.js" defer></script>
+    <script src="js/script.js" defer></script>
+    <script src="js/faq.js" defer></script>
+    <script src="js/form.js" defer></script>
+    <script src="js/hamburger.js" defer></script>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="header">
+      <div class="container header__container">
+        <!-- Logo -->
+        <a href="#" class="header__logo"
+          ><img class="logo" src="assets/logo.png" width="117" alt="Uifry Logo"
+        /></a>
+        <!-- Navigation Links -->
+        <nav class="menu header__menu">
+          <ul class="menu__list header__menu-list">
+            <li class="menu__item">
+              <a href="#about" class="menu__link">About Us</a>
+            </li>
+            <li class="menu__item">
+              <a href="#features" class="menu__link">Features</a>
+            </li>
+            <li class="menu__item">
+              <a href="#advantages" class="menu__link">Advantages</a>
+            </li>
+            <li class="menu__item">
+              <a href="#testimonials" class="menu__link">Testimonial</a>
+            </li>
+            <li class="menu__item">
+              <a href="#FAQ" class="menu__link">FAQ</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- Download Button -->
+        <div>
+          <button
+            class="button"
+            type="button"
+          >
+            Download
+          </button>
+      </div>
+      <div>
+      <!-- Burger Menu -->
+      <nav id="hamburger-nav">
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li class="menu__items">
+              <a href="#about" onclick="toggleMenu()">About Us</a>
+            </li>
+            <li class="menu__item">
+              <a href="#features" onclick="toggleMenu()">Features</a>
+            </li>
+            <li class="menu__item">
+              <a href="#advantages" onclick="toggleMenu()">Advantages</a>
+            </li>
+            <li class="menu__item">
+              <a href="#testimonial" onclick="toggleMenu()">Testimonial</a>
+            </li>
+            <li class="menu__item">
+              <a href="#faq" onclick="toggleMenu()">FAQ</a>
+            </li>
+          </div>
+        </div>
+      </nav>
+    </div>
+    </header>
+    <!-- Main Content -->
+    <main id="main">
+      <!-- Hero Section -->
+      <section id="about" class="hero hidden">
+        <div class="container hero__container">
+          <div class="hero__content">
+            <h1 class="hero__title">Make the best financial decisions</h1>
+            <p class="hero__desc">
+              Take control of your finances with our cutting-edge mobile app. Seamlessly manage your budget, track expenses. Join thousands of users who are optimizing their financial health with our powerful tools.
+            </p>
+            <a class="button" href="#" target="_blank">
+              Get started
+            </a>
+            <img
+              src="assets/phones.png"
+              alt="App Prototype on Phones"
+              class="hero__image"
+            />
+          </div>
+        </div>
+        <div class="hero__footer">
+          <img src="assets/textdesign.png" alt="Uifry Premium Free Trial Banner" class="hero__image_decor" />
+        </div>
+      </section>
+
+      <!-- Features Section -->
+      <section id="features" class="features hidden">
+        <div class="container features__container">
+          <div class="features__content">
+            <div class="image-main">
+              <img
+                src="assets/phone1.png"
+                alt="App Prototype on the phone"
+                class="header__image phone-1"
+              />
+            </div>
+            <div class="features__content__list">
+              <h2 class="features__title__sub">Features</h2>
+              <h1 class="features__title">Uifry Premium</h1>
+              <ol class="features__list">
+                <li class="features__item">
+                  <span class="features__item_highlight"
+                    >Budgeting intervals</span
+                  >
+                  <p>
+                    Set customized budgeting intervals to better manage your spending. Whether weekly, monthly, or yearly, our app adapts to your needs.
+                  </p>
+                </li>
+                <li class="features__item">
+                  <span class="features__item_highlight"
+                    >Expense Tracking</span
+                  >
+                  <p>
+                    Easily track your daily expenses with our intuitive interface. Gain a clear overview of where your money goes and find opportunities to save.
+                  </p>
+                </li>
+                <li class="features__item">
+                  <span class="features__item_highlight"
+                    >Financial Goals</span
+                  >
+                  <p>
+                    Set and achieve your financial goals with our smart planning tools. From saving for a vacation to paying off debt, our app helps you stay on track.
+                  </p>
+                </li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Advatnages Section -->
+      <section id="advantages" class="features hidden">
+        <div class="container features__container">
+          <div class="features__content">
+            <div class="features__content__list">
+              <h2 class="features__title__sub">Advatnages</h2>
+              <h1 class="features__title">Why choose Uifry?</h1>
+              <ol class="features__list star_big">
+                <li class="features__item">
+                  <span class="features__item_highlight"
+                    >Clever notifications</span
+                  >
+                  <p>
+                    Stay on top of your finances with our smart notifications. Get timely reminders about upcoming bills, budget limits, and savings opportunities. Uifry ensures you never miss an important financial event, helping you stay organized and in control by alina.
+                  </p>
+                </li>
+              </ol>
+            </div>
+            <div class="image-main">
+              <img
+                src="assets/phone2.png"
+                alt="App Prototype on the phone"
+                class="header__image phone-1"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Fully customizable -->
+      <section id = "custom" class="features hidden">
+        <div class="container features__container">
+          <div class="features__content">
+            <div class="image-main">
+              <img
+                src="assets/phone3.png"
+                alt="App Prototype on the phone"
+                class="header__image phone-1"
+              />
+            </div>
+            <div class="features__content__list">
+              <ol class="features__list star_big">
+                <li class="features__item">
+                  <span class="features__item_highlight"
+                    >Fully customizable</span
+                  >
+                  <p>
+                    Tailor your financial management experience to your unique needs. Uifry offers customizable features and settings, allowing you to personalize everything from budget categories to notification preferences. Create a financial tool that works just the way you want it to.
+                  </p>
+                </li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Testimonials Section -->
+      <section id="testimonials" class="testimonials hidden">
+        <div class="container features__container">
+          <div class="testimonials__content">
+            <div class="testimonials__content__items">
+              <h2 class="features__title__sub testimonials__sub">
+                Testimonial
+              </h2>
+              <h1 class="features__title testimonials__title">
+                What our users say about us?
+              </h1>
+            </div>
+          </div>
+          <div class="testimonial">
+            <div class="testimonial_text">
+              <div class="user_text active_text">
+                <p>
+                  "The financial app has completely transformed the way I manage
+                  my finances. Its intuitive interface and powerful features
+                  make budgeting and tracking expenses a breeze. I highly
+                  recommend it to anyone looking to take control of their
+                  financial life!"
+                </p>
+                <span>John Anderson: Engineer, Tech Solutions Inc.</span>
+              </div>
+              <div class="user_text">
+                <p>
+                  "I've tried several financial apps, but this one stands out.
+                  It provides real-time insights and personalized tips that have
+                  helped me save more and invest smarter. The customer support
+                  is also top-notch!"
+                </p>
+                <span
+                  >Michael Johnson: Marketing Manager, Creative Media Ltd.</span
+                >
+              </div>
+              <div class="user_text">
+                <p>
+                  "As a data analyst, I'm impressed by the app's ability to
+                  present financial data in a clear and actionable manner. It
+                  has simplified my financial planning process and helped me
+                  achieve my financial goals faster than I imagined."
+                </p>
+                <span>Emily Davis: Data Analyst, Analytics Pro Co.</span>
+              </div>
+              <div class="user_text">
+                <p>
+                  "The financial app is a game-changer! The budgeting tools and
+                  expense tracking features are incredibly accurate and easy to
+                  use. It's like having a personal financial advisor in my
+                  pocket."
+                </p>
+                <span>Robert Smith: PM, Innovative Designs LLC.</span>
+              </div>
+              <div class="user_text">
+                <p>
+                  "I love how the financial app helps me stay on top of my
+                  finances effortlessly. The automated savings and investment
+                  options are fantastic, and the user-friendly design makes it a
+                  joy to use every day. Highly recommend!"
+                </p>
+                <span>Sarah Brown: HR, People First Corp.</span>
+              </div>
+            </div>
+            <div class="testimonial_pic">
+              <img
+                src="assets/person1.png"
+                class="user_pic active_pic"
+                onclick="showReview(this)"
+              />
+              <img
+                src="assets/person2.png"
+                class="user_pic"
+                onclick="showReview(this)"
+              />
+              <img
+                src="assets/person3.png"
+                class="user_pic"
+                onclick="showReview(this)"
+              />
+              <img
+                src="assets/person4.png"
+                class="user_pic"
+                onclick="showReview(this)"
+              />
+              <img
+                src="assets/person5.png"
+                class="user_pic"
+                onclick="showReview(this)"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Callback -->
+      <section class="callback hidden">
+        <div class="callback__right">
+          <h2 class="callback__title">Find more about us</h2>
+          <p class="callback__desc">
+            Enter your phone number, and we will call you to provide more information about our app.
+          </p>
+          <form action="" class="callback-form">
+            <input
+        type="tel"
+        name="tel"
+        class="text-field callback-form__inp"
+        placeholder="Enter your phone number"
+        pattern="[0-9]{10}"
+        title="Enter your phone number"
+        required
+    />
+            <button type="submit" class="button callback-form__btn">
+              Sent
+            </button>
+          </form>
+        </div>
+      </section>
+      <!-- FAQ -->
+      <section id="FAQ" class="FAQ-main hidden">
+        <div class="container features__container">
+          <div class="testimonials__content">
+            <div class="testimonials__content__items">
+              <h2 class="features__title__sub testimonials__sub">
+                faq
+              </h2>
+              <h1 class="features__title testimonials__title">
+                Frequently asked questions
+              </h1>
+            </div>
+          </div>
+          <div class="faq__container">
+            <div class="faq active">
+              <h3 class="faq__title">What features does your app offer?</h3>
+              <p class="faq__text">Our app provides comprehensive budgeting tools, expense tracking, investment portfolio management, and real-time financial insights.</p>
+              <button class="faq__toggle">
+                <i class="fas fa-chevron-down"></i>
+                <i class="fas fa-times"></i>
+              </button>
+            </div>
+            <div class="faq">
+              <h3 class="faq__title">
+                Is my financial data secure?
+              </h3>
+              <p class="faq__text">Yes, we prioritize security. Your data is encrypted and stored securely, adhering to industry standards and regulations.</p>
+              <button class="faq__toggle">
+                <i class="fas fa-chevron-down"></i>
+                <i class="fas fa-times"></i>
+              </button>
+            </div>
+      
+            <div class="faq">
+              <h3 class="faq__title">
+                Can I sync my bank accounts with the app?
+              </h3>
+              <p class="faq__text">Absolutely. Our app supports bank account syncing to provide you with up-to-date financial information in one place.</p>
+              <button class="faq__toggle">
+                <i class="fas fa-chevron-down"></i>
+                <i class="fas fa-times"></i>
+              </button>
+            </div>
+      
+            <div class="faq">
+              <h3 class="faq__title">
+                Is the app accessible on mobile devices?
+              </h3>
+              <p class="faq__text">Yes, our app is available on both iOS and Android platforms, ensuring you can manage your finances conveniently on the go.</p>
+              <button class="faq__toggle">
+                <i class="fas fa-chevron-down"></i>
+                <i class="fas fa-times"></i>
+              </button>
+            </div>
+      
+            <div class="faq">
+              <h3 class="faq__title">How can I get customer support?</h3>
+              <p class="faq__text">We offer dedicated customer support through multiple channels, including live chat, email, and phone, to assist you with any questions or issues.</p>
+              <button class="faq__toggle">
+                <i class="fas fa-chevron-down"></i>
+                <i class="fas fa-times"></i>
+              </button>
+            </div>
+          </div>
+      </section>
+      <!-- Download -->
+      <section class="download hidden">
+        <div class="container download__container">
+          <div class="hero__content download__content">
+            <h1 class="hero__title">Ready to get started?</h1>
+            <p class="hero__desc">
+              Take the first step towards financial freedom with Uifry. Download the app now and start making smarter financial decisions today.
+            </p>
+            <a class="button buttno_m" href="#" target="_blank">
+              Download app
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+     <!-- Footer -->
+    <footer id="contacts" class="footer">
+      <div class="footer-main">
+        <div class="footer-main-inner container">
+          <header class="footer-header">
+            <a class="footer-logo" href="#main">
+              <img
+                class="footer-logo-image"
+                src="assets/logo.png"
+                alt="Uifry Logo"
+                width="117" height="34" loading="lazy"
+              />
+            </a>
+            <p class="footer-description hero__desc ">
+              Please feel free to send us an e-mail at <a href="mailto:uifry@app.com">uifry@app.com</a><br> Your <b>UIFRY TEAM</b>
+            </p>
+            <div class="socials__info">
+            <ul class="social__icons">
+              <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+              <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+            </ul>
+          </div>
+          </header>
+          <div class="footer-copyright">
+            © <time datetime="2024">2024</time> Alina Zakharova, All Rights Reserved | <a href="#">Privacy Policy</a> | <a href="#">Contact Us</a>
+          </div>
+            
+      </div>
+    </footer>
+  </body>
+</html>
